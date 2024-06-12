@@ -1,0 +1,40 @@
+﻿<Window x:Class="Rsa_and_Miller_Rabin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rsa_and_Miller_Rabin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="850" Width="1300" ResizeMode="NoResize">
+    <Grid Background="#FF95D092">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="626*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="RSA" HorizontalAlignment="Left" Margin="573.4,10,0,0" VerticalAlignment="Top" Height="50" Width="81" FontSize="36" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_text" Height="180" Margin="23,92,845.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Content="Исходное сообщение" HorizontalAlignment="Left" Margin="23,54,0,0" VerticalAlignment="Top" Height="68" Width="450" FontSize="20" FontFamily="Comic Sans MS" Grid.ColumnSpan="2"/>
+        <Label Content="Зашифрованное сообщение" HorizontalAlignment="Left" Margin="23,309,0,0" VerticalAlignment="Top" Height="68" Width="450" FontSize="20" FontFamily="Comic Sans MS" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_text_sh" Height="180" Margin="22,354,845.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="426" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.ColumnSpan="2"/>
+        <Label Content="Расшифрованное сообщение" HorizontalAlignment="Left" Margin="22,552,0,0" VerticalAlignment="Top" Height="68" Width="450" FontSize="20" FontFamily="Comic Sans MS" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_text_desh" Height="180" Margin="23,594,845.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.ColumnSpan="2"/>
+        <Button x:Name="Sh" Content="Шифровать" HorizontalAlignment="Left" Margin="1028.4,105,0,0" VerticalAlignment="Top" Width="200" Height="69" FontSize="24" FontFamily="Comic Sans MS" Background="#FF5A97BC" Grid.Column="1" Click="Sh_Click"/>
+        <Button x:Name="Desh" Content="Расшифровать" HorizontalAlignment="Left" Margin="1028.4,216,0,0" VerticalAlignment="Top" Width="200" Height="69" FontSize="24" FontFamily="Comic Sans MS" Background="#FF5A97BC" Grid.Column="1" Click="Desh_Click" />
+        <Button x:Name="Gen" Content="Сгенерировать" HorizontalAlignment="Left" Margin="1028.4,325,0,0" VerticalAlignment="Top" Width="200" Height="69" FontSize="24" FontFamily="Comic Sans MS" Background="#FF5A97BC" Click="Gen_Click" Grid.Column="1" />
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_kol_bit" Height="90" Margin="533.4,87,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_p" Height="90" Margin="533.4,194,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_q" Height="90" Margin="533.4,300,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_n" Height="90" Margin="533.4,400,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_f" Height="90" Margin="533.4,505,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_e" Height="90" Margin="533.4,606,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Center"  x:Name="tx_RSA_d" Height="90" Margin="533.4,714,293.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="425" BorderBrush="#FF5F6F9F" FontFamily="Comic Sans MS" FontSize="18" Grid.Column="1"/>
+        <Label Content="Кол-во бит" HorizontalAlignment="Left" Margin="411.4,114,0,0" VerticalAlignment="Top" Height="60" Width="134" FontSize="20" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <Label Content="p" HorizontalAlignment="Left" Margin="489.4,212,0,0" VerticalAlignment="Top" Height="60" Width="34" FontSize="30" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <Label Content="q" HorizontalAlignment="Left" Margin="489.4,317,0,0" VerticalAlignment="Top" Height="60" Width="39" FontSize="30" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <Label Content="n" HorizontalAlignment="Left" Margin="489.4,418,0,0" VerticalAlignment="Top" Height="60" Width="39" FontSize="30" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <Label Content="ф(n)" HorizontalAlignment="Left" Margin="461.4,521,0,0" VerticalAlignment="Top" Height="60" Width="67" FontSize="24" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <Label Content="e" HorizontalAlignment="Left" Margin="489.4,620,0,0" VerticalAlignment="Top" Height="60" Width="39" FontSize="30" FontFamily="Comic Sans MS" Grid.Column="1"/>
+        <Label Content="d" HorizontalAlignment="Left" Margin="489.4,736,0,0" VerticalAlignment="Top" Height="60" Width="39" FontSize="30" FontFamily="Comic Sans MS" Grid.Column="1"/>
+
+    </Grid>
+</Window>

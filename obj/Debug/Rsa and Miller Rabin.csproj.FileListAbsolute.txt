@@ -1,0 +1,15 @@
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\bin\Debug\Rsa and Miller Rabin.exe.config
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\bin\Debug\Rsa and Miller Rabin.exe
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\bin\Debug\Rsa and Miller Rabin.pdb
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin.csprojAssemblyReference.cache
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\MainWindow.g.cs
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\App.g.cs
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin_MarkupCompile.cache
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin_MarkupCompile.lref
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\MainWindow.baml
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin.g.resources
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa_and_Miller_Rabin.Properties.Resources.resources
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin.csproj.GenerateResource.cache
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin.csproj.CoreCompileInputs.cache
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin.exe
+C:\Users\Bulat\Desktop\ \Учеба\мубараков\Rsa and Miller Rabin\obj\Debug\Rsa and Miller Rabin.pdb
